@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --bg-deep: #1E2431;
+  --bg-room: #262E3F;
+  --bg-panel: #2E3750;
+  --mist: #7C93B8;
+  --lamp: #F0B75E;
+  --lamp-soft: rgba(240, 183, 94, 0.35);
+  --text-primary: #EDEEF3;
+  --text-muted: #97A1B8;
+  --font-voice: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+}
+
+body {
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-voice);
+  font-weight: 500;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-sans);
+  cursor: pointer;
+}
+
+input, textarea {
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background: var(--lamp-soft);
+}
